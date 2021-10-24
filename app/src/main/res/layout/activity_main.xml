@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <Button
+        android:id="@+id/aboutTextView"
+        android:layout_width="161dp"
+        android:layout_height="55dp"
+        android:onClick="onClick"
+        android:text="About"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <Button
+        android:id="@+id/clickButton"
+        android:layout_width="164dp"
+        android:layout_height="52dp"
+        android:onClick="onClick"
+        android:text="Clicky Clicky"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.354" />
+
+    <Button
+        android:id="@+id/floatButton"
+        android:layout_width="158dp"
+        android:layout_height="53dp"
+        android:onClick="onClick"
+        android:text="Link Collector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.519" />
+
+    <Button
+        android:id="@+id/locationButton"
+        android:layout_width="158dp"
+        android:layout_height="53dp"
+        android:onClick="onClick"
+        android:text="Location"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.707" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
