@@ -42,6 +42,11 @@ public class MainActivity extends AppCompatActivity
                 openLocationActivity();
                 break;
         }
+        switch (view.getId()) {
+            case R.id.serviceButton:
+                openServiceActivity();
+                break;
+        }
     }
     public void openActivity(){
         Intent intent = new Intent(this, MainActivity2.class);
@@ -54,6 +59,10 @@ public class MainActivity extends AppCompatActivity
     }
     public void openLocationActivity(){
         Intent intent = new Intent(this, MainActivity5.class);
+        startActivity(intent);
+    }
+    public void openServiceActivity(){
+        Intent intent = new Intent(this, MainActivity6.class);
         startActivity(intent);
     }
 }
