@@ -1,4 +1,0 @@
-com/example/numad21fa_zhixuancao/BuildConfig.java
- com.example.numad21fa_zhixuancao.BuildConfig
-com/example/numad21fa_zhixuancao/MainActivity.java
- com.example.numad21fa_zhixuancao.MainActivity
